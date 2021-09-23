@@ -8,6 +8,13 @@
   <artifactId>maven-demo</artifactId>
   <version>1.0.1-SNAPSHOT</version>
 
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>calc</module>
+    <module>app</module>
+  </modules>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.build.targetEncoding>UTF-8</project.build.targetEncoding>
